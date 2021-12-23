@@ -49,7 +49,7 @@ The development environment in question is Netlogo, primarily written in Scala w
 <img width="598" alt="Screen Shot 2021-12-23 at 9 45 53 AM" src="https://user-images.githubusercontent.com/70657426/147206303-a84e1044-3474-4465-8dab-c2c4204fa021.png">
 </p>
 
-**Random Motion Algorithm**
+### Random Motion Algorithm
 <p align="justify">
 The random motion algorithm refers to the arbitrary movement of nanoparticles without involving any connection between the agents, i.e. each agent cannot sense the other members of the swarm and vary their direction accordingly.
 </p>
@@ -57,7 +57,7 @@ The random motion algorithm refers to the arbitrary movement of nanoparticles wi
 <img width="690" alt="Screen Shot 2021-12-23 at 9 48 40 AM" src="https://user-images.githubusercontent.com/70657426/147206633-28ea91fb-6e93-4797-acde-4fbe575778cc.png">
 </p>
 
-**Flock Motion Algorithm**
+### Flock Motion Algorithm
 <p align="justify">
 The flock motion algorithm aims to copy the group migration of birds generally adopted for safety from predation and foraging benefits. Here, the nanorobots move in a flock shape by sensing the other swarm members present in their radius and alternating their direction suitably.
 </p>
@@ -65,7 +65,7 @@ The flock motion algorithm aims to copy the group migration of birds generally a
 <img width="690" alt="Screen Shot 2021-12-23 at 9 48 28 AM" src="https://user-images.githubusercontent.com/70657426/147206576-b168d517-8319-4233-8c89-20d178dd6364.png">
 </p>
 
-**Search Dominated Motion Algorithm**
+### Search Dominated Motion Algorithm
 <p align="justify">
 The search dominated algorithm is very similar to the flock motion of the nanoparticle in terms of programming; however, another piece of code is implemented to target the cancer cells. In addition to the ability of the nanorobots to sense their neighbours over a defined radius, the capabilities of the agents to detect cancerous cells was implemented.
 </p> 
@@ -73,7 +73,7 @@ The search dominated algorithm is very similar to the flock motion of the nanopa
 <img width="690" alt="Screen Shot 2021-12-23 at 9 49 40 AM" src="https://user-images.githubusercontent.com/70657426/147206761-42bc7428-2d47-46d2-8b21-9832f1da3a7b.png">
 </p> 
 
-**Flock Dominated Motion Algorithm**
+### Flock Dominated Motion Algorithm
 <p align="justify">
 This final algorithm is almost identical to the cancer targeting code, and the only con- trast remains in the distribution of the nanoparticles tasks. In fact, instead of starting by targeting cancer cells, the flock dominated algorithm first sight to form a connected flock before searching for cancer cells.
 </p> 
@@ -83,7 +83,7 @@ This final algorithm is almost identical to the cancer targeting code, and the o
 
 ## Variables Investigation
 
-**50 Nanobots**
+### 50 Nanobots
 <p align="center">
 <img width="924" alt="Screen Shot 2021-12-23 at 9 56 39 AM" src="https://user-images.githubusercontent.com/70657426/147207624-a56480c5-08ce-4814-8b75-a5b0f86fde81.png">
 </p> 
@@ -91,7 +91,7 @@ This final algorithm is almost identical to the cancer targeting code, and the o
 The figure above shows the investigation of the variables for a swarm population of 50 nanorobots where figure d) combine the most efficient variable of each algorithm into one plot to allow further analysis.
 </p> 
 
-**100 Nanobots**
+### 100 Nanobots
 <p align="center">
 <img width="816" alt="Screen Shot 2021-12-23 at 9 58 11 AM" src="https://user-images.githubusercontent.com/70657426/147207810-2cdec147-3c68-4060-90cd-db6bb2853de9.png">
 </p> 
@@ -99,7 +99,7 @@ The figure above shows the investigation of the variables for a swarm population
 The figure above investigate the change of variable for a population of 100 agents. Here, the flock motion simulation displays a specific cancer treatment with extensive stagnation phases and steep slopes. This trend reveals the swarm’s effectiveness to treat the disease when in contact with a tumour, yet their struggle at finding the targeted cells.
 </p> 
 
-**150 Nanobots**
+### 150 Nanobots
 <p align="center">
 <img width="816" alt="Screen Shot 2021-12-23 at 9 59 02 AM" src="https://user-images.githubusercontent.com/70657426/147207914-7edfd8fb-629d-40e0-9d9d-011f717ed551.png">
 </p> 
@@ -107,13 +107,14 @@ The figure above investigate the change of variable for a population of 100 agen
 For 150 nanorobots in figure 18, the flock motion algorithm shows a decrease in plateau and sharper slopes. The best outcome is obtained for the lowest variables values and the worst results for both high variables.
 </p> 
 
-**200 Nanobots**
+### 200 Nanobots
 <p align="center">
 <img width="816" alt="Screen Shot 2021-12-23 at 10 00 10 AM" src="https://user-images.githubusercontent.com/70657426/147208046-cf659f0f-764b-4525-9c8f-c0b23b65b423.png">
 </p> 
 
 
 ## Further Applications for our algorithms
+### Floor Decontamination
 <p align="justify">
 The potential applications of swarm robotics are vast and may include any miniaturisation task, collective exploration, targeting and monitoring application that favour the coop- erative behaviour of a group of agents to superior performance. Further applications comprise firefighting drones, agriculture and precision farming, construction task, disinfection robots for hospitals and decontamination floor use.In this section, another background environment is created in Netlogo to test the search- dominated motion algorithm’s efficacy on a pollution source for decontamination.
 </p>
@@ -121,8 +122,21 @@ The potential applications of swarm robotics are vast and may include any miniat
 <img width="804" alt="Screen Shot 2021-12-23 at 10 04 09 AM" src="https://user-images.githubusercontent.com/70657426/147208495-28bf7429-29ea-445e-8eab-68830d5d647b.png">
 </p>  
   
-**Investigation of the speed and size of the swarm**
+### Investigation of the speed and size of the swarm
 <p align="center">
 <img width="804" alt="Screen Shot 2021-12-23 at 10 05 17 AM" src="https://user-images.githubusercontent.com/70657426/147208654-d815b0c0-fa51-46e5-aadd-be6ccaa31182.png">
-</p>  
+</p>
+
+### Bee Shimeering
+Another application of the cellular automata algorithm designed at the beginning of the study can be used to model bee shimmering. More GIF files and pictures are available in the repository. 
+<p align="center">
+<img width="987" alt="Screen Shot 2021-12-23 at 10 12 19 AM" src="https://user-images.githubusercontent.com/70657426/147209554-7039111a-2c78-485a-b6fc-24fdb4fcaf3d.png">
+</p>
+
+<p align="center">
+<img width="300" alt="Screen Shot 2021-02-19 at 3 22 36 PM" src="https://user-images.githubusercontent.com/70657426/147209752-a786ef93-ca79-44a1-9dda-2eb83c9d7c62.png">
+</p>
+
+
+
   
