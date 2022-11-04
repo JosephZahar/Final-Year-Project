@@ -1,3 +1,5 @@
+<img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?style=flat-square&logo=python&logoColor=white" />
+
 # Final Year Project - Biomedical Engineering 
 
 ## Table of Contents
