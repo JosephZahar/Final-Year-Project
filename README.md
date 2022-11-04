@@ -1,4 +1,26 @@
 # Final Year Project - Biomedical Engineering 
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Cellular Automata Based Model of Cancer Growth](#cellular-automata-based-model-of-cancer-growth)
+- [Cellular Automata Based Model of Nanorobots](#cellular-automata-based-model-of-nanorobots)
+- [Multi-Agent based model of Nanorobots](#multi-agent-based-model-of-nanorobots)
+  - [Random Motion Algorithm](#random-motion-algorithm)
+  - [Flock Motion Algorithm](#flock-motion-algorithm)
+  - [Search Dominated Motion Algorithm](#search-dominated-motion-algorithm)
+  - [Flock Dominated Motion Algorithm](#flock-dominated-motion-algorithm)
+- [Variables Investigation](#variables-investigation)
+  - [50 Nanobots](#50-nanobots)
+  - [100 Nanobots](#100-nanobots)
+  - [150 Nanobots](#150-nanobots)
+  - [200 Nanobots](#200-nanobots)
+- [Further Applications for our Algorithms](#further-applications-for-our-algorithms)
+  - [Floor Decontamination](#floor-decontamination)
+  - [Investigation of the Speed and Size of the Swarm](#investigation-of-the-speed-and-size-of-the-swarm)
+  - [Bee Shimmering](#bee-shimmering)
+
+## Overview
 <p align="justify">
 Modeling of Metastatic Cancer and its Treatment using Swarm Intelligence Based-Control. This study investigates the use of swarm robotics and nanotechnology to target cancer cells autonomously and efficiently, focusing on exploring new control algorithms inspired by the combined behaviour of social animals.
 </p>
@@ -40,7 +62,7 @@ Once the tumour growth is achieved, the second stage of our experiment introduci
 <img width="563" alt="Screen Shot 2021-12-23 at 9 40 44 AM" src="https://user-images.githubusercontent.com/70657426/147205743-cdf8b8ed-b02b-4c4b-954a-81445e30b108.png">
 </p>
 
-## Multi-Agent based model of Nanorobots
+## Multi-Agent Based Model of Nanorobots
 <p align="justify">
 The development environment in question is Netlogo, primarily written in Scala with some part in Java. The program allows different use of mobile agents known as turtles that circulate over a stationary cellular grid referred to as patches, equivalent to our cellular automata domain. This part focuses on developing a specialised control algorithm for our swarm of nanorobots inspired by swarm intelligence behaviour.
 </p>
@@ -113,7 +135,7 @@ For 150 nanorobots in figure 18, the flock motion algorithm shows a decrease in 
 </p> 
 
 
-## Further Applications for our algorithms
+## Further Applications for our Algorithms
 ### Floor Decontamination
 <p align="justify">
 The potential applications of swarm robotics are vast and may include any miniaturisation task, collective exploration, targeting and monitoring application that favour the coop- erative behaviour of a group of agents to superior performance. Further applications comprise firefighting drones, agriculture and precision farming, construction task, disinfection robots for hospitals and decontamination floor use.In this section, another background environment is created in Netlogo to test the search- dominated motion algorithm’s efficacy on a pollution source for decontamination.
@@ -127,7 +149,7 @@ The potential applications of swarm robotics are vast and may include any miniat
 <img width="804" alt="Screen Shot 2021-12-23 at 10 05 17 AM" src="https://user-images.githubusercontent.com/70657426/147208654-d815b0c0-fa51-46e5-aadd-be6ccaa31182.png">
 </p>
 
-### Bee Shimeering
+### Bee Shimmering
 Another application of the cellular automata algorithm designed at the beginning of the study can be used to model bee shimmering. More GIF files and pictures are available in the repository. 
 <p align="center">
 <img width="987" alt="Screen Shot 2021-12-23 at 10 12 19 AM" src="https://user-images.githubusercontent.com/70657426/147209554-7039111a-2c78-485a-b6fc-24fdb4fcaf3d.png">
